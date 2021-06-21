@@ -1,2 +1,4 @@
-package BubbleTask;public class ClassBubble {
+package BubbleTask;
+
+public class ClassBubble {
 }

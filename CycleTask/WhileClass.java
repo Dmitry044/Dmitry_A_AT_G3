@@ -1,2 +1,4 @@
-package CycleTask;public class WhileClass {
+package CycleTask;
+
+public class WhileClass {
 }
