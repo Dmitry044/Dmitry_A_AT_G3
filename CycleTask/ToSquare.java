@@ -6,7 +6,7 @@ public class ToSquare {
 
     //каждый элемент массива возвести в квадрат и вывести результат в консоль
 
-    static void method7() {
+    public void metPrintSquare() {
         int[] toSquare = new int[3];
         Random random = new Random();
         System.out.println("Исходный массив: ");

@@ -6,7 +6,7 @@ public class ChangeOrder {
 
     //поменять местами первый и последний элементы и вывести результат в консоль
 
-    static void method9() {
+    public void metPrintChangeOrderMethod() {
         int[] changeOrder = new int[3];
         Random random = new Random();
         System.out.print("Исходный массив: ");
@@ -15,7 +15,7 @@ public class ChangeOrder {
         }
 
         int firstElement = changeOrder[0];
-        changeOrder[0] = changeOrder[changeOrder.length 1];
+        changeOrder[0] = changeOrder[changeOrder.length];
         changeOrder[changeOrder] = firstElement;
 
         System.out.print("Первый элемент: " + changeOrder[0]);

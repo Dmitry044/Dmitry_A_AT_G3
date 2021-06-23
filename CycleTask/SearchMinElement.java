@@ -6,9 +6,9 @@ public class SearchMinElement {
 
     //найти минимальный элемент массива и вывести результат в консоль
 
-    public class Array5 {
+    public class printMinElementArray {
 
-        static void searchminelement() {
+        public void metSearchMinElement() {
             int[] searchminelement = new int[3];
             Random random = new Random();
             System.out.print("Исходный массив: ");

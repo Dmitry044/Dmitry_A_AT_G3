@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package CycleTask;
+
 import java.util.Random;
 
 public class CreatEmptyArray {
@@ -6,7 +7,7 @@ public class CreatEmptyArray {
     // создать пустой массив типа int и размера n = 7 и заполнить его случайными
     // элементами используя Random.nextInt(n)
 
-    public static void main(String[] args) {
+    public void metCreateNewEmptyArray (String[] args) {
         CreatEmptyArray arrays = new CreatEmptyArray();
         arrays.foo();
     }
@@ -33,6 +34,7 @@ public class CreatEmptyArray {
         System.out.println("Average value is: " + avg);
 
     }
+
 
 }
 

@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class ShowArrayElements {
 
-    static void method5() {
+    public void metPrintAllElementsFromArray() {
         int[] initial = new int[7];
         Random random = new Random();
         for (int i = 0; i < initial.length; i++) {
@@ -17,5 +17,6 @@ public class ShowArrayElements {
         }
 
     }
+
 
 }
