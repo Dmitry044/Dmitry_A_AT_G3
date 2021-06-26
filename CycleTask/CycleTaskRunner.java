@@ -17,6 +17,7 @@ public class CycleTaskRunner {
         task1.metFor();
         System.out.println();
         System.out.println("Sub task 2 ");
+        new WhileClass().metWhile();
         task2.metWhile();
         System.out.println();
         System.out.println("Sub task 3");

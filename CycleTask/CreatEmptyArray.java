@@ -8,33 +8,12 @@ public class CreatEmptyArray {
     // элементами используя Random.nextInt(n)
 
     public void metCreateNewEmptyArray (String[] args) {
-        CreatEmptyArray arrays = new CreatEmptyArray();
-        arrays.foo();
-    }
-
-    void foo() {
         int[] array = new int[7];
         Random random = new Random();
-
-        for (int i = 0; i < array.length; i++) {
+        for (int i : array) {
             array[i] = random.nextInt(7);
         }
-
-        System.out.println("Initial arrays: ");
-        for (int i : array) {
-            System.out.println(i + " ");
-        }
-
-        System.out.println();
-        int avg = 0;
-        for (int i = 0; i < array.length; i++) {
-            avg += array[i];
-        }
-
-        System.out.println("Average value is: " + avg);
-
     }
-
 
 }
 
