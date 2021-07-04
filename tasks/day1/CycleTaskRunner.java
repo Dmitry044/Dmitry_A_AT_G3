@@ -1,4 +1,4 @@
-package CycleTask;
+package tasks.day1;
 
 public class CycleTaskRunner {
     static ForClass task1 = new ForClass();
@@ -9,7 +9,7 @@ public class CycleTaskRunner {
     static MultiplyFive task6 = new MultiplyFive();
     static ToSquare task7 = new ToSquare();
     static SearchMinElement task8 = new SearchMinElement();
-    static ChangeOrder task9 = new ChangeOrder();
+    static tasks.ChangeOrder task9 = new ChangeOrder();
     static SortElementsDescendingOrder task10 = new SortElementsDescendingOrder();
 
     public static void main(String[] args) {

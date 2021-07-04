@@ -1,4 +1,4 @@
-package CycleTask;
+package tasks.day1;
 
 // пройти по массиву и вывести в консоль все элементы
 

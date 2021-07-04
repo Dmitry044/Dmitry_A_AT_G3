@@ -1,4 +1,4 @@
-package CycleTask;
+package tasks.day1;
 
 public class WhileClass {
 

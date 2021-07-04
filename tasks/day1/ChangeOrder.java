@@ -1,4 +1,4 @@
-package CycleTask;
+package tasks.day1;
 
 import java.util.Random;
 
@@ -6,7 +6,7 @@ public class ChangeOrder {
 
     //поменять местами первый и последний элементы и вывести результат в консоль
 
-    public void metPrintChangeOrderMethod() {
+    public void PrintChangeOrderMethod() {
         int[] changeOrder = new int[3];
         Random random = new Random();
         System.out.print("Исходный массив: ");
